@@ -1,0 +1,24 @@
+let mapleader=" "
+
+set hlsearch
+set ignorecase
+set iskeyword
+set incsearch
+set clipboard+=unnamed
+set showmode
+set smartcase
+
+set commentary
+set multiple-cursors
+set surround
+set ideajoin
+set ideamarks
+set ideawrite 
+set easymotion
+
+nnoremap gd :action GotoDeclaration<cr>
+nnoremap gh :action QuickJavaDoc<cr>
+nnoremap gu :action ShowUsages<cr>
+nnoremap gr :action Run<cr>
+nnoremap ge :action ShowErrorDescription<cr>
+nnoremap gf :action ReformatCode<cr>
